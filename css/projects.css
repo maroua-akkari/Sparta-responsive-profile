@@ -18,3 +18,29 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+	.main-content p {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+  #headshot {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+  .screenshot {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+  .title {
+    width: 100%;
+    display: block;
+  }
+}
