@@ -30,3 +30,27 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 400px){
+	.right h1 {
+		padding-top: 25px;
+	}
+	#headshot {
+		top: 0px;
+		margin-left: 10px;
+	}
+	.main-content {
+		margin: 0 10px;
+	}
+	.right {
+		margin-left: 0px;
+		margin-right: 70px;
+	}
+	.left {
+		width: 100%;
+		text-align: center;
+	}
+	.left ul {
+		list-style: none;
+	}
+}
